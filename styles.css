@@ -1,0 +1,49 @@
+header {
+    border-style: solid;
+    border-width: 1px;
+    border-color: goldenrod;
+}
+
+.month-list {
+    color: grey;
+}
+
+header li {
+    display: inline;
+    padding: 1em;
+}
+
+.parent div > div {
+    color: red;
+}
+
+.parent div + h4 {
+    background-color: red;
+}
+
+.parent div + h4 + h4 {
+    color: blue;
+}
+
+.parent div + h4 + h4 +h4 {
+    background-color: blue;
+}
+
+.grandparent > h4 {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: .5em;
+}
+
+.active {
+    color: yellow;
+}
+
+.promo {
+    color: gold;
+    font-weight: bold;
+}
+
+input {
+    height: 25px;
+}
